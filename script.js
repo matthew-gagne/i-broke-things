@@ -90,7 +90,7 @@ function addYears (z, y) {
 
 function sumResults (x, y, z, a, b, c) { // sDOY, iDif, days, iYear, sYear, iDOY
   let count = 0
-  if (a == b) { // the linter does not like the 2 "=" but the code breaks when changed
+  if (a == b) { // the linter does not like the 2 "=" but the code breaks when changed to 3
     count = parseInt(x) - parseInt(c)
     return count
   } else {
